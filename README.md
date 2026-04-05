@@ -46,7 +46,7 @@
 
 ## 🏗️ Architecture
 
-![Logo](architecture.jpeg)
+![architecture](architecture.png)
 ---
 
 ## 🤖 AI Agents
