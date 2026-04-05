@@ -13,7 +13,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 
 from graph.state import StudentProfile
 from agents.static.advisor_prompt import SYSTEM_PROMPT
-from agents.static.advisor_scoring import (
+from agents.logic.advisor_scoring import (
     score_filiere as _score_filiere,
     format_filieres_for_prompt,
 )
