@@ -1,137 +1,30 @@
 "use client";
 
-import { useEffect, useState, Suspense } from "react";
-import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 
-interface Question {
-  index: number;
-  text: string;
-  answered: boolean;
-  evaluation?: {
-    clarte: number;
-    motivation: number;
-    connaissance: number;
-    feedback: string;
-  };
+export default function InterviewPage() {
+  return (
+    <main className="min-h-screen flex flex-col items-center justify-center px-4 bg-gray-50">
+      <div className="max-w-md text-center">
+        <div className="text-6xl mb-4">🔄</div>
+        <h1 className="text-3xl font-bold text-gray-900 mb-4">Feature Deprecated</h1>
+        <p className="text-lg text-gray-600 mb-8">
+          La simulation d&apos;entretien a été supprimée. 
+          <br />
+          <br />
+          Consultez vos recommandations personnalisées et préparez-vous directement avec les
+          ressources des établissements.
+        </p>
+        
+        <Link
+          href="/"
+          className="inline-block px-6 py-3 bg-orient-blue text-white rounded-lg font-semibold hover:bg-blue-800 transition-colors"
+        >
+          ← Retour à l'accueil
+        </Link>
+      </div>
+    </main>
 }
-
-interface InterviewState {
-  filiere: string;
-  questions: string[];
-  currentIndex: number;
-  answers: string[];
-  evaluations: Array<{
-    clarte: number;
-    motivation: number;
-    connaissance: number;
-    feedback: string;
-  }>;
-  isComplete: boolean;
-  finalScore?: number;
-  finalFeedback?: {
-    score: number;
-    points_forts: string[];
-    axes_amelioration: string[];
-  };
-}
-
-function InterviewContent() {
-  const searchParams = useSearchParams();
-  const sessionId = searchParams.get("session_id");
-  const filiereId = searchParams.get("filiere_id");
-
-  const [state, setState] = useState<InterviewState>({
-    filiere: "",
-    questions: [],
-    currentIndex: 0,
-    answers: [],
-    evaluations: [],
-    isComplete: false,
-  });
-  const [currentAnswer, setCurrentAnswer] = useState("");
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
-
-  // Fetch questions on mount
-  useEffect(() => {
-    if (!sessionId || !filiereId) {
-      setError("Paramètres manquants");
-      setIsLoading(false);
-      return;
-    }
-
-    const initInterview = async () => {
-      try {
-        // Select the filière
-        await fetch(`/api/session/${sessionId}/select-filiere`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ filiere_id: filiereId }),
-        });
-
-        // Get questions
-        const res = await fetch(`/api/session/${sessionId}/interview/questions`);
-        const data = await res.json();
-
-        setState((prev) => ({
-          ...prev,
-          filiere: data.filiere,
-          questions: data.questions,
-          currentIndex: data.answered_count,
-        }));
-        setIsLoading(false);
-      } catch {
-        setError("Erreur lors du chargement des questions");
-        setIsLoading(false);
-      }
-    };
-
-    initInterview();
-  }, [sessionId, filiereId]);
-
-  const handleSubmitAnswer = async () => {
-    if (!currentAnswer.trim() || currentAnswer.length < 10) {
-      setError("Ta réponse doit faire au moins 10 caractères");
-      return;
-    }
-
-    setIsSubmitting(true);
-    setError(null);
-
-    try {
-      const res = await fetch(`/api/session/${sessionId}/interview/answer`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          question_index: state.currentIndex,
-          answer: currentAnswer,
-        }),
-      });
-
-      const evaluation = await res.json();
-
-      setState((prev) => {
-        const newAnswers = [...prev.answers, currentAnswer];
-        const newEvaluations = [...prev.evaluations, evaluation];
-        const isComplete = evaluation.is_complete;
-
-        return {
-          ...prev,
-          answers: newAnswers,
-          evaluations: newEvaluations,
-          currentIndex: prev.currentIndex + 1,
-          isComplete,
-        };
-      });
-
-      setCurrentAnswer("");
-
-      // If complete, fetch final results
-      if (evaluation.is_complete) {
-        const resultRes = await fetch(`/api/session/${sessionId}/result`);
-        const result = await resultRes.json();
         setState((prev) => ({
           ...prev,
           finalScore: result.interview_score,

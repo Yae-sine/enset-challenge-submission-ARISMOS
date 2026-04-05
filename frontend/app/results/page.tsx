@@ -31,8 +31,6 @@ interface SessionResult {
     plan_action_30j: string[];
     prochaine_etape: string;
   }>;
-  filiere_choisie?: string;
-  interview_score?: number;
   pdf_path?: string;
   error?: string;
 }
@@ -127,7 +125,7 @@ function LoadingScreen({ events }: { events: AgentEvent[] }) {
     profileur: "📊 Analyse du profil",
     explorateur: "🔍 Recherche des filières",
     conseiller: "🎯 Préparation des recommandations",
-    coach_entretien: "🎤 Génération des questions",
+
     pdf_generator: "📄 Création du rapport",
   };
 

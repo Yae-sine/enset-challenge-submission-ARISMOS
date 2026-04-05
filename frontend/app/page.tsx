@@ -24,7 +24,6 @@ export default function Home() {
           <p className="text-xl text-gray-600 mb-8">
             OrientAgent analyse ton profil, explore 40+ filières marocaines
             vérifiées, et te recommande les meilleures options pour ton avenir.
-            Simulation d&apos;entretien incluse !
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -53,11 +52,7 @@ export default function Home() {
               title="Top 3 personnalisé"
               description="Recommandations avec plan d'action sur 30 jours"
             />
-            <FeatureCard
-              icon="🎤"
-              title="Simulation entretien"
-              description="Prépare-toi avec des questions adaptées à ta filière"
-            />
+
           </div>
         </div>
       </section>
