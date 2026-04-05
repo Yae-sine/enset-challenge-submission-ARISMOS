@@ -291,13 +291,6 @@ function ResultsDashboard({ result }: { result: SessionResult }) {
                     </details>
                   )}
 
-                  <button
-                    onClick={() => handleSelectFiliere(filiere.filiere_id)}
-                    disabled={selectedFiliere === filiere.filiere_id}
-                    className="w-full py-3 bg-orient-blue text-white rounded-lg font-medium hover:bg-blue-800 disabled:opacity-50"
-                  >
-                    🎤 Simuler un entretien pour cette filière
-                  </button>
                 </div>
               ))}
             </div>
