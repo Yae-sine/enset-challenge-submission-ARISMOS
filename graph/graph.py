@@ -12,7 +12,6 @@ from graph.nodes import (
     profileur_node,
     explorateur_node,
     conseiller_node,
-    coach_entretien_node,
     pdf_generator_node,
     error_handler_node,
 )
@@ -23,9 +22,9 @@ def build_graph() -> StateGraph:
     Build the OrientAgent LangGraph workflow.
     
     Graph structure:
-    START -> profileur -> explorateur -> conseiller -> coach_entretien -> pdf_generator -> END
-                ↓              ↓              ↓               ↓
-            error_handler  error_handler  error_handler  error_handler
+    START -> profileur -> explorateur -> conseiller -> pdf_generator -> END
+                ↓              ↓              ↓
+            error_handler  error_handler  error_handler
     
     Returns:
         Compiled StateGraph ready for execution
@@ -37,7 +36,6 @@ def build_graph() -> StateGraph:
     workflow.add_node("profileur", profileur_node)
     workflow.add_node("explorateur", explorateur_node)
     workflow.add_node("conseiller", conseiller_node)
-    workflow.add_node("coach_entretien", coach_entretien_node)
     workflow.add_node("pdf_generator", pdf_generator_node)
     workflow.add_node("error_handler", error_handler_node)
     
@@ -64,19 +62,9 @@ def build_graph() -> StateGraph:
         }
     )
     
-    # Conseiller -> Coach Entretien (or error)
+    # Conseiller -> PDF Generator (or error)
     workflow.add_conditional_edges(
         "conseiller",
-        lambda state: "error_handler" if state.get("error") else "coach_entretien",
-        {
-            "coach_entretien": "coach_entretien",
-            "error_handler": "error_handler",
-        }
-    )
-    
-    # Coach Entretien -> PDF Generator (or error)
-    workflow.add_conditional_edges(
-        "coach_entretien",
         lambda state: "error_handler" if state.get("error") else "pdf_generator",
         {
             "pdf_generator": "pdf_generator",

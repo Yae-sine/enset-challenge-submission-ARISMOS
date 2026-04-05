@@ -241,7 +241,7 @@ def _create_recommendations_section(result: dict, styles) -> list:
         score_pct = f"{float(score)*100:.0f}%"
         
         elements.append(Paragraph(
-            f"<b>#{i} {nom}</b> — Score: {score_pct}",
+            f"<b>{i}-  {nom}</b> — Score: {score_pct}",
             styles["Heading2_Custom"]
         ))
         

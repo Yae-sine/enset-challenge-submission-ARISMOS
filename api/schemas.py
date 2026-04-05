@@ -93,50 +93,6 @@ class AgentEvent(BaseModel):
     data: Optional[dict] = Field(None, description="Event-specific data")
 
 
-class InterviewAnswerRequest(BaseModel):
-    """Request body for submitting an interview answer"""
-    
-    question_index: int = Field(..., ge=0, lt=10, description="Index of the question being answered")
-    answer: str = Field(..., min_length=10, max_length=2000, description="Student's answer")
-    
-    model_config = {
-        "json_schema_extra": {
-            "examples": [
-                {
-                    "question_index": 0,
-                    "answer": "J'ai choisi cette filière car je suis passionné par l'informatique depuis mon enfance. Je programme depuis l'âge de 14 ans et j'ai réalisé plusieurs projets personnels en Python et JavaScript."
-                }
-            ]
-        }
-    }
-
-
-class InterviewEvaluation(BaseModel):
-    """Response for interview answer evaluation"""
-    
-    clarte: int = Field(..., ge=0, le=10, description="Clarity score (0-10)")
-    motivation: int = Field(..., ge=0, le=10, description="Motivation score (0-10)")
-    connaissance: int = Field(..., ge=0, le=10, description="Knowledge score (0-10)")
-    feedback: str = Field(..., description="Constructive feedback")
-    question_index: int = Field(..., description="Index of the evaluated question")
-    is_complete: bool = Field(default=False, description="Whether the interview is complete")
-
-
-class FiliereSelection(BaseModel):
-    """Request body for selecting a filière for interview"""
-    
-    filiere_id: str = Field(..., description="ID of the selected filière from top 3")
-    
-    model_config = {
-        "json_schema_extra": {
-            "examples": [
-                {
-                    "filiere_id": "ensa_casablanca_genie_info"
-                }
-            ]
-        }
-    }
-
 
 class SessionResult(BaseModel):
     """Full session result response"""
@@ -149,9 +105,6 @@ class SessionResult(BaseModel):
     learning_style: str
     filieres_count: int
     top_3: list[dict]
-    filiere_choisie: Optional[str] = None
-    interview_score: Optional[int] = None
-    interview_feedback: Optional[dict] = None
     pdf_path: Optional[str] = None
     error: Optional[str] = None
 

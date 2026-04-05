@@ -13,7 +13,6 @@ from graph.state import StudentProfile
 from agents.profiler import ProfileurAgent
 from agents.explorer import ExplorateurAgent
 from agents.advisor import ConseillerAgent
-from agents.coach import CoachEntretienAgent
 from pdf.generator import generate_report
 
 load_dotenv()
@@ -106,26 +105,6 @@ async def conseiller_node(state: StudentProfile) -> dict[str, Any]:
             "error": f"Conseiller agent failed: {str(e)}",
             "current_step": "error",
             "top_3": [],
-        }
-
-
-async def coach_entretien_node(state: StudentProfile) -> dict[str, Any]:
-    """
-    LangGraph node for Agent 4: Coach Entretien.
-    
-    Generates interview questions for the chosen filière.
-    """
-    llm = _get_llm()
-    agent = CoachEntretienAgent(llm=llm)
-    
-    try:
-        result = await agent.run(state)
-        return result
-    except Exception as e:
-        return {
-            "error": f"Coach Entretien agent failed: {str(e)}",
-            "current_step": "error",
-            "interview_questions": [],
         }
 
 

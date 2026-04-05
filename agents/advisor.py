@@ -61,7 +61,7 @@ class ConseillerAgent:
         if not filieres:
             return {
                 "top_3": [],
-                "current_step": "coach_entretien",
+                "current_step": "pdf_generator",
                 "error": "No filières available for recommendation"
             }
         
@@ -138,5 +138,5 @@ class ConseillerAgent:
         
         return {
             "top_3": top_3,
-            "current_step": "coach_entretien",
+            "current_step": "pdf_generator",
         }
