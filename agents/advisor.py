@@ -12,143 +12,16 @@ from langchain_core.language_models import BaseChatModel
 from langchain_core.messages import HumanMessage, SystemMessage
 
 from graph.state import StudentProfile
-
-
-SYSTEM_PROMPT = """Tu es un conseiller d'orientation expert du contexte éducatif marocain.
-
-Tu dois analyser les filières candidates et générer un top 3 personnalisé pour l'étudiant.
-
-**Top filières candidates (pré-scorées) :**
-{top_filieres_with_scores}
-
-**Profil de l'étudiant :**
-- Nom : {nom}
-- Série Bac : {serie_bac}
-- Ville : {ville}
-- Budget : {budget}
-- Langue préférée : {langue}
-- Style d'apprentissage : {learning_style}
-- Domain scores : {domain_scores}
-- Centres d'intérêt : {interets}
-
-**Ta mission :**
-Pour le TOP 3, génère pour chaque filière :
-1. Une **justification narrative personnalisée** (3-4 phrases, parle directement à l'étudiant en utilisant "tu/toi")
-2. Un **plan d'action concret sur 30 jours** avec 5 étapes spécifiques
-3. Les **établissements recommandés** dans ou près de sa ville
-4. Les **prochaines étapes immédiates**
-
-Réponds en JSON avec cette structure exacte :
-{{
-    "top_3": [
-        {{
-            "rang": 1,
-            "filiere_id": "<id>",
-            "filiere_nom": "<nom complet>",
-            "type": "<type>",
-            "ville": "<ville>",
-            "score_final": <float 0-1>,
-            "justification": "<3-4 phrases personnalisées>",
-            "plan_action_30j": [
-                "<étape 1 avec deadline>",
-                "<étape 2 avec deadline>",
-                "<étape 3 avec deadline>",
-                "<étape 4 avec deadline>",
-                "<étape 5 avec deadline>"
-            ],
-            "etablissements_recommandes": ["<établissement 1>", "<établissement 2>"],
-            "prochaine_etape": "<action immédiate à faire cette semaine>"
-        }}
-    ]
-}}
-
-Sois encourageant et réaliste. Mentionne des éléments concrets du profil de l'étudiant."""
+from agents.advisor_prompt import SYSTEM_PROMPT
+from agents.advisor_scoring import (
+    score_filiere as _score_filiere,
+    format_filieres_for_prompt,
+)
 
 
 def score_filiere(filiere: dict, profile: StudentProfile) -> float:
-    """
-    Calculate the final recommendation score for a filière.
-    
-    Scoring formula:
-    - Profil alignment: 40%
-    - Employment rate: 25%
-    - Accessibility (ville + budget): 20%
-    - Language match: 15%
-    
-    Args:
-        filiere: Filière dict with metadata
-        profile: Student profile state
-    
-    Returns:
-        Score between 0 and 1
-    """
-    domain_scores = profile.get("domain_scores", {})
-    constraints = profile.get("constraints", {})
-    
-    # 1. Profile alignment (40%)
-    domaine = filiere.get("domaine", "tech")
-    profil_score = domain_scores.get(domaine, 0.5) * 0.40
-    
-    # 2. Employment rate (25%)
-    taux_emploi = filiere.get("taux_emploi", 70)
-    if isinstance(taux_emploi, str):
-        try:
-            taux_emploi = int(taux_emploi)
-        except ValueError:
-            taux_emploi = 70
-    emploi_score = (taux_emploi / 100) * 0.25
-    
-    # 3. Accessibility (20%)
-    # Ville match
-    filiere_ville = filiere.get("ville", "")
-    profile_ville = constraints.get("ville", profile.get("ville", ""))
-    ville_match = 1.0 if filiere_ville.lower() == profile_ville.lower() else 0.5
-    
-    # Budget match
-    frais = filiere.get("frais_annuels_mad", 0)
-    if isinstance(frais, str):
-        try:
-            frais = int(frais)
-        except ValueError:
-            frais = 0
-    
-    budget = constraints.get("budget", profile.get("budget", "public"))
-    if budget == "public":
-        budget_match = 1.0 if frais == 0 else 0.3
-    elif budget == "prive_abordable":
-        budget_match = 1.0 if frais <= 50000 else 0.5
-    else:  # prive_premium
-        budget_match = 1.0
-    
-    acces_score = ((ville_match + budget_match) / 2) * 0.20
-    
-    # 4. Language match (15%)
-    filiere_langue = filiere.get("langue_enseignement", "fr")
-    profile_langue = constraints.get("langue", profile.get("langue", "fr"))
-    langue_match = 1.0 if filiere_langue == profile_langue else 0.6
-    langue_score = langue_match * 0.15
-    
-    total = profil_score + emploi_score + acces_score + langue_score
-    return round(min(1.0, max(0.0, total)), 3)
-
-
-def format_filieres_for_prompt(filieres: list[dict], profile: StudentProfile) -> str:
-    """Format scored filières for the LLM prompt."""
-    if not filieres:
-        return "Aucune filière disponible."
-    
-    lines = []
-    for i, f in enumerate(filieres[:8], 1):
-        score = score_filiere(f, profile)
-        lines.append(f"""
-{i}. **{f.get('nom', 'N/A')}** (Score: {score:.0%})
-   - Type: {f.get('type', 'N/A')} | Ville: {f.get('ville', 'N/A')}
-   - Domaine: {f.get('domaine', 'N/A')}
-   - Taux emploi: {f.get('taux_emploi', 'N/A')}% | Salaire: {f.get('salaire_moyen', 'N/A')} MAD
-   - Conditions: {f.get('conditions_acces', 'N/A')}
-   - Débouchés: {', '.join(f.get('debouches', [])[:3])}
-""")
-    return "\n".join(lines)
+    """Compatibility wrapper re-exported for tests and external imports."""
+    return _score_filiere(filiere, profile)
 
 
 class ConseillerAgent:
