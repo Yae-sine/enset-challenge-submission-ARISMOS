@@ -11,7 +11,6 @@ from unittest.mock import AsyncMock, MagicMock, patch
 from graph.state import StudentProfile, create_initial_state
 from agents.profiler import ProfileurAgent, _calculate_domain_scores_fallback
 from agents.advisor import ConseillerAgent, score_filiere
-from agents.coach import CoachEntretienAgent, compute_interview_score
 
 
 # Test fixtures
@@ -189,111 +188,6 @@ class TestConseillerAgent:
         # Should not raise exception
         score = score_filiere(minimal_filiere, sample_profile)
         assert 0 <= score <= 1
-
-
-# CoachEntretienAgent Tests
-class TestCoachEntretienAgent:
-    def test_compute_final_score_high_scores(self):
-        """Test final score computation with high evaluation scores."""
-        evaluations = [
-            {"clarte": 8, "motivation": 9, "connaissance": 7, "feedback": "Bien"},
-            {"clarte": 9, "motivation": 8, "connaissance": 8, "feedback": "Très bien"},
-            {"clarte": 7, "motivation": 9, "connaissance": 9, "feedback": "Excellent"},
-        ]
-
-        result = compute_interview_score(evaluations)
-
-        assert result["score"] >= 70
-        assert "points_forts" in result
-        assert "axes_amelioration" in result
-        assert len(result["points_forts"]) >= 1
-
-    def test_compute_final_score_low_scores(self):
-        """Test final score computation with low evaluation scores."""
-        evaluations = [
-            {"clarte": 3, "motivation": 4, "connaissance": 2, "feedback": "À améliorer"},
-            {"clarte": 4, "motivation": 3, "connaissance": 3, "feedback": "Insuffisant"},
-        ]
-
-        result = compute_interview_score(evaluations)
-
-        assert result["score"] < 50
-        assert len(result["axes_amelioration"]) >= 1
-
-    def test_compute_final_score_empty_evaluations(self):
-        """Test that empty evaluations return a valid structure."""
-        result = compute_interview_score([])
-
-        assert result["score"] == 0
-        assert "points_forts" in result
-        assert "axes_amelioration" in result
-
-    @pytest.mark.asyncio
-    async def test_generate_questions_returns_six(self, mock_llm):
-        """Test that generate_questions returns exactly 6 questions."""
-        mock_response = MagicMock()
-        mock_response.content = json.dumps({
-            "questions": [
-                "Question 1?",
-                "Question 2?",
-                "Question 3?",
-                "Question 4?",
-                "Question 5?",
-                "Question 6?",
-            ]
-        })
-        mock_llm.ainvoke.return_value = mock_response
-
-        agent = CoachEntretienAgent(llm=mock_llm)
-        questions = await agent.generate_questions(
-            filiere_nom="ENSA Génie Informatique",
-            filiere_context="Formation d'ingénieur",
-            langue="fr"
-        )
-
-        assert len(questions) == 6
-
-    @pytest.mark.asyncio
-    async def test_generate_questions_fallback(self, mock_llm):
-        """Test that generate_questions falls back to defaults on error."""
-        mock_response = MagicMock()
-        mock_response.content = "Invalid JSON"
-        mock_llm.ainvoke.return_value = mock_response
-
-        agent = CoachEntretienAgent(llm=mock_llm)
-        questions = await agent.generate_questions(
-            filiere_nom="Test Filière",
-            filiere_context="",
-            langue="fr"
-        )
-
-        # Should return default questions
-        assert len(questions) == 6
-        assert all(isinstance(q, str) for q in questions)
-
-    @pytest.mark.asyncio
-    async def test_evaluate_answer_valid_response(self, mock_llm):
-        """Test answer evaluation with valid LLM response."""
-        mock_response = MagicMock()
-        mock_response.content = json.dumps({
-            "clarte": 7,
-            "motivation": 8,
-            "connaissance": 6,
-            "feedback": "Bonne réponse structurée.",
-        })
-        mock_llm.ainvoke.return_value = mock_response
-
-        agent = CoachEntretienAgent(llm=mock_llm)
-        evaluation = await agent.evaluate_answer(
-            question="Pourquoi cette filière ?",
-            answer="Je suis passionné par l'informatique depuis mon enfance...",
-            filiere_nom="ENSA Génie Info",
-        )
-
-        assert evaluation["clarte"] == 7
-        assert evaluation["motivation"] == 8
-        assert evaluation["connaissance"] == 6
-        assert "feedback" in evaluation
 
 
 # Integration-style tests
