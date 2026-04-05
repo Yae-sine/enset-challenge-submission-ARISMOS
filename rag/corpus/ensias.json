@@ -1,0 +1,24 @@
+[
+  {
+    "id": "ensias",
+    "nom": "École Nationale Supérieure d'Informatique et d'Analyse des Systèmes (ENSIAS)",
+    "type": "information not found",
+    "ville": "information not found",
+    "pays": "Maroc",
+    "site_officiel": "https://www.ensias.ma/",
+    "description": "information not found",
+    "categorie": "école d'ingénieurs",
+    "serie_bac_requise": "information not found",
+    "langue_enseignement": "information not found",
+    "conditions_acces_generales": "information not found",
+    "duree_cycle_principal": "information not found",
+    "frais_annuels_mad": "information not found",
+    "mode_admission": "information not found",
+    "niveau_entree": "information not found",
+    "debouches_generaux": "information not found",
+    "sources": [
+      "https://www.ensias.ma/"
+    ],
+    "filieres": []
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "id": "enset_mohammedia",
+    "nom": "École Normale Supérieure de l'Enseignement Technique de Mohammedia (ENSET Mohammedia)",
+    "type": "établissement public d'enseignement supérieur",
+    "ville": "Mohammedia",
+    "pays": "Maroc",
+    "site_officiel": "https://www.enset-media.ac.ma/",
+    "description": "Site institutionnel identifié comme « ENSET Mohammedia | Ecole Normale Supérieure de l'Enseignement Technique ». Actualités consultées : 40e anniversaire de l'ENSET (mention en mars 2026) ; organisation d'événements scientifiques (conférence ICEGC'25 sur l'énergie et l'informatique verte, décembre 2025) ; laboratoire « Informatique, Intelligence Artificielle et Cybersécurité » ; portail étudiant et formation continue (pré-candidatures via plateforme Aptus).",
+    "categorie": "école normale supérieure",
+    "serie_bac_requise": "information not found",
+    "langue_enseignement": "information not found",
+    "conditions_acces_generales": "information not found",
+    "duree_cycle_principal": "information not found",
+    "frais_annuels_mad": "information not found",
+    "mode_admission": "information not found",
+    "niveau_entree": "information not found",
+    "debouches_generaux": "information not found",
+    "sources": [
+      "https://www.enset-media.ac.ma/",
+      "https://www.enset-media.ac.ma/article/emplois-temps-officiels-provisoires-toutes-filieres-lecole-printemps-2025-2026",
+      "https://www.enset-media.ac.ma/article/ouverture-pre-candidatures-pour-la-formation-continue-2024-2025"
+    ],
+    "filieres": [
+      {
+        "id": "enset_mohammedia_departement_genie_mecanique",
+        "type": "departement",
+        "nom": "Département : Génie Mécanique",
+        "description": "Département cité dans l'article sur les emplois du temps de toutes les filières (lien vers document PDF d'emploi du temps).",
+        "domaine": "génie mécanique",
+        "duree_annees": "information not found",
+        "langue_enseignement": "information not found",
+        "conditions_acces": "information not found",
+        "niveau_entree": "information not found",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "information not found",
+        "debouches": "information not found",
+        "source_urls": [
+          "https://www.enset-media.ac.ma/article/emplois-temps-officiels-provisoires-toutes-filieres-lecole-printemps-2025-2026",
+          "https://www.enset-media.ac.ma/sites/default/files/artilces_pieces_jointes/gm_emploi_general_s2_v2.pdf"
+        ]
+      },
+      {
+        "id": "enset_mohammedia_departement_genie_electrique",
+        "type": "departement",
+        "nom": "Département : Génie Electrique",
+        "description": "Département cité dans l'article sur les emplois du temps de toutes les filières (lien vers document PDF d'emploi du temps).",
+        "domaine": "génie électrique",
+        "duree_annees": "information not found",
+        "langue_enseignement": "information not found",
+        "conditions_acces": "information not found",
+        "niveau_entree": "information not found",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "information not found",
+        "debouches": "information not found",
+        "source_urls": [
+          "https://www.enset-media.ac.ma/article/emplois-temps-officiels-provisoires-toutes-filieres-lecole-printemps-2025-2026",
+          "https://www.enset-media.ac.ma/sites/default/files/artilces_pieces_jointes/ge_emploi_general_s2_v2_0.pdf"
+        ]
+      },
+      {
+        "id": "enset_mohammedia_departement_mathematiques_informatique",
+        "type": "departement",
+        "nom": "Département : Mathématiques et Informatique",
+        "description": "Département cité dans l'article sur les emplois du temps de toutes les filières (lien vers document PDF d'emploi du temps).",
+        "domaine": "mathématiques et informatique",
+        "duree_annees": "information not found",
+        "langue_enseignement": "information not found",
+        "conditions_acces": "information not found",
+        "niveau_entree": "information not found",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "information not found",
+        "debouches": "information not found",
+        "source_urls": [
+          "https://www.enset-media.ac.ma/article/emplois-temps-officiels-provisoires-toutes-filieres-lecole-printemps-2025-2026",
+          "https://www.enset-media.ac.ma/sites/default/files/artilces_pieces_jointes/mi_emploi_general_s2_v2.pdf"
+        ]
+      },
+      {
+        "id": "enset_mohammedia_departement_genie_economie_gestion",
+        "type": "departement",
+        "nom": "Département : Génie Economie et Gestion",
+        "description": "Département cité dans l'article sur les emplois du temps de toutes les filières (lien vers document PDF d'emploi du temps).",
+        "domaine": "économie et gestion",
+        "duree_annees": "information not found",
+        "langue_enseignement": "information not found",
+        "conditions_acces": "information not found",
+        "niveau_entree": "information not found",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "information not found",
+        "debouches": "information not found",
+        "source_urls": [
+          "https://www.enset-media.ac.ma/article/emplois-temps-officiels-provisoires-toutes-filieres-lecole-printemps-2025-2026",
+          "https://www.enset-media.ac.ma/sites/default/files/artilces_pieces_jointes/geg_emploi_general_s2_v2.pdf"
+        ]
+      },
+      {
+        "id": "enset_mohammedia_departement_icmc",
+        "type": "departement",
+        "nom": "Département : Ingénierie des compétences Management et Communication",
+        "description": "Département cité dans l'article sur les emplois du temps de toutes les filières (lien vers document PDF d'emploi du temps).",
+        "domaine": "management et communication",
+        "duree_annees": "information not found",
+        "langue_enseignement": "information not found",
+        "conditions_acces": "information not found",
+        "niveau_entree": "information not found",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "information not found",
+        "debouches": "information not found",
+        "source_urls": [
+          "https://www.enset-media.ac.ma/article/emplois-temps-officiels-provisoires-toutes-filieres-lecole-printemps-2025-2026",
+          "https://www.enset-media.ac.ma/sites/default/files/artilces_pieces_jointes/icmc_emploi_general_s2_v2.pdf"
+        ]
+      },
+      {
+        "id": "enset_mohammedia_formation_continue",
+        "type": "formation_continue",
+        "nom": "Formation continue",
+        "description": "Pré-candidatures en ligne mentionnées pour l'année 2025-2026 ; admission au concours définitive après dépôt du dossier complet ; fausse déclaration entraînant le rejet de la candidature à tout stade.",
+        "domaine": "information not found",
+        "duree_annees": "information not found",
+        "langue_enseignement": "information not found",
+        "conditions_acces": "Détail des prérequis non trouvé sur la page consultée ; procédure : pré-candidature en ligne sur la plateforme indiquée par l'école.",
+        "niveau_entree": "information not found",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "concours",
+        "debouches": "information not found",
+        "source_urls": [
+          "https://www.enset-media.ac.ma/article/ouverture-pre-candidatures-pour-la-formation-continue-2024-2025",
+          "https://ensetm-candidature.aptusmaroc.com/site/fc/"
+        ]
+      }
+    ]
+  }
+]

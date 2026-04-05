@@ -1,0 +1,191 @@
+[
+  {
+    "id": "emsi_maroc",
+    "nom": "École Marocaine des Sciences de l'Ingénieur (EMSI)",
+    "type": "école d'ingénieurs privée",
+    "ville": "Casablanca (siège principal + 18 autres campus)",
+    "pays": "Maroc",
+    "site_officiel": "https://www.emsi.ma/",
+    "description": "La plus grande école d'ingénieurs privée au Maroc, fondée il y a plus de 39 ans, reconnue par l'État et délivrant une formation d'excellence en ingénierie. L'EMSI dispose de 19 campus à travers le Maroc (Casablanca, Rabat, Marrakech, Fès et Tanger), équipés de laboratoires sophistiqués et de centres de calcul modernes. L'école s'engage dans une recherche scientifique académique et appliquée visant à contribuer à l'innovation et au progrès économique du Maroc. Elle bénéficie d'un strong réseau de 21 000 alumnis et de 400+ partenaires de recrutement. L'EMSI propose une formation généraliste enrichie d'expériences concrètes avec 6 centres de carrière dédiés et un accompagnement des élèves ingénieurs à travers 21st century skills (soft & hard skills).",
+    "categorie": "école d'ingénieurs",
+    "serie_bac_requise": "Sciences (toutes séries scientifiques acceptées)",
+    "langue_enseignement": "Français",
+    "conditions_acces_generales": "Admission sur dossier par étude de candidature. Baccalauréat scientifique obligatoire. Entretien de motivation possible. Nombreuses voies d'entrée : après bac, après CPGE délaissée, après une première année dans une autre école, formation continue. Bourses et financements disponibles selon profil. Candidats étrangers acceptés. L'école appartient au réseau Honoris Uni (réseau international d'écoles et universités).",
+    "duree_cycle_principal": "3 ans (cycle ingénieur)",
+    "frais_annuels_mad": "Privé (frais de scolarité selon filière et campus, flexible par système de bourses)",
+    "mode_admission": "Dossier de candidature + entretien",
+    "niveau_entree": "Bac ou Bac+1",
+    "debouches_generaux": "Ingénieur généraliste polyvalent, Chef de projet IT, Ingénieur infrastructure cloud, Ingénieur électrique/automatisme, Chef de projet BTP, Consultant financier, Data scientist, Entrepreneur - secteurs : informatique, énergie, construction, industrie 4.0, finance, télécoms, services numériques",
+    "sources": [
+      "https://www.emsi.ma/",
+      "https://www.emsi.ma/a-propos/lemsi/",
+      "https://www.emsi.ma/cursus-des-etudes/",
+      "https://www.emsi.ma/employabilite/",
+      "https://www.emsi.ma/recherche-innovation/"
+    ],
+    "filieres": [
+      {
+        "id": "emsi_ingenierie_informatique_reseaux",
+        "type": "cycle_ingenieur",
+        "nom": "Ingénierie Informatique & Réseaux",
+        "description": "Filière formant des ingénieurs spécialisés en technologies de l'information, cybersécurité et intelligence artificielle. Cette formation technique approfondie prépare les étudiants aux enjeux de l'innovation digitale avec focus sur le développement digital, les réseaux sécurisés et les applications IA. Programme articulé autour du développement logiciel, architecture systèmes, cloud computing et sécurité informatique.",
+        "domaine": "informatique",
+        "duree_annees": "3",
+        "langue_enseignement": "Français",
+        "conditions_acces": "Bac scientifique ou CPGE informatique/mathématiques, test d'aptitude, entretien de motivation",
+        "niveau_entree": "Bac (post-bac) ou Bac+1",
+        "serie_bac_requise": "Sciences (toutes orientations scientifiques)",
+        "mode_admission": "Dossier + entretien",
+        "debouches": [
+          "Ingénieur développement logiciel",
+          "Architecte systèmes IT",
+          "Spécialiste cybersécurité",
+          "Ingénieur cloud infrastructure",
+          "Chef de projet digital transformation",
+          "Data scientist/engineer",
+          "Ingénieur réseaux infrastructure",
+          "Consultant solutions IT"
+        ],
+        "source_urls": [
+          "https://www.emsi.ma/ingenierie-informatique-et-reseaux/",
+          "https://www.emsi.ma/"
+        ]
+      },
+      {
+        "id": "emsi_genie_electrique_systemes_intelligents",
+        "type": "cycle_ingenieur",
+        "nom": "Génie Électrique et Systèmes Intelligents",
+        "description": "Filière formant des ingénieurs maîtrisant les fondamentaux du génie électrique ainsi que les avancées technologiques liées aux systèmes intelligents. Allie les bases classiques aux innovations modernes comme les réseaux électriques intelligents (smart grids) et les solutions énergétiques durables. Force particulière sur l'électrotechnique, les systèmes automatisés et les énergies renouvelables.",
+        "domaine": "génie électrique",
+        "duree_annees": "3",
+        "langue_enseignement": "Français",
+        "conditions_acces": "Bac scientifique filière physique-chimie ou CPGE EEA, test technique en électricité, entretien",
+        "niveau_entree": "Bac (post-bac) ou Bac+1",
+        "serie_bac_requise": "Sciences (Mathématiques/Physiques)",
+        "mode_admission": "Dossier + entretien technique",
+        "debouches": [
+          "Ingénieur électricien production",
+          "Spécialiste réseaux électriques intelligents",
+          "Ingénieur énergies renouvelables",
+          "Chef de projet électrification",
+          "Ingénieur automatismes",
+          "Consultant energy management",
+          "Responsable maintenance électrique",
+          "Engineer smart grid solutions"
+        ],
+        "source_urls": [
+          "https://www.emsi.ma/genie-electrique-et-systemes-intelligents",
+          "https://www.emsi.ma/"
+        ]
+      },
+      {
+        "id": "emsi_ingenierie_automatisme_informatique_industrielle",
+        "type": "cycle_ingenieur",
+        "nom": "Ingénierie Automatisme et Informatique Industrielle",
+        "description": "Filière destinée à former des ingénieurs face à l'automatisation croissante des processus industriels. Les étudiants maîtrisent le contrôle-commande et les réseaux industriels pour concevoir et piloter des systèmes complexes au service de la performance et de la fiabilité des installations. Combine automatismes, programmation industrielle et supervision de processus pour façonner l'usine du futur (Industrie 4.0).",
+        "domaine": "génie électromécanique",
+        "duree_annees": "3",
+        "langue_enseignement": "Français",
+        "conditions_acces": "Bac scientifique avec aptitude en physique/électricité ou CPGE automatisme, test de programmation, entretien",
+        "niveau_entree": "Bac (post-bac) ou Bac+1",
+        "serie_bac_requise": "Sciences (Mathématiques/Physiques)",
+        "mode_admission": "Dossier + entretien technique",
+        "debouches": [
+          "Ingénieur automatismes industriels",
+          "Ingénieur contrôle-commande",
+          "Spécialiste Industrie 4.0",
+          "Chef de projet automation",
+          "Ingénieur supervision systèmes",
+          "Consultant optimisation processus",
+          "Responsable maintenance automatismes",
+          "Engineer IoT industriel"
+        ],
+        "source_urls": [
+          "https://www.emsi.ma/ingenierie-automatisme-et-informatique-industrielle/",
+          "https://www.emsi.ma/"
+        ]
+      },
+      {
+        "id": "emsi_genie_civil_btp",
+        "type": "cycle_ingenieur",
+        "nom": "Génie Civil, Bâtiments et Travaux Publics (BTP)",
+        "description": "Filière spécialisée dans la conception, la réalisation et la gestion de projets intégrant bâtiments et travaux publics. Les étudiants développent des compétences techniques et managériales pour concevoir et superviser des projets ambitieux en infrastructure durable. Programme couvrant conception structurelle, gestion de chantiers, infrastructures routières/hydrauliques et construction durable avec approche BIM.",
+        "domaine": "génie civil",
+        "duree_annees": "3",
+        "langue_enseignement": "Français",
+        "conditions_acces": "Bac scientifique ou CPGE civil, test de conception dessin technique, entretien",
+        "niveau_entree": "Bac (post-bac) ou Bac+1",
+        "serie_bac_requise": "Sciences (Mathématiques spéciales)",
+        "mode_admission": "Dossier + entretien",
+        "debouches": [
+          "Ingénieur BTP bâtiment",
+          "Ingénieur travaux publics",
+          "Chef de projet construction",
+          "Conducteur de travaux",
+          "Ingénieur structure design",
+          "Consultant infrastructures durables",
+          "Urbaniste ingénieur",
+          "Manager de chantier grand projet"
+        ],
+        "source_urls": [
+          "https://www.emsi.ma/genie-civil-batiments-et-travaux-publics-btp/",
+          "https://www.emsi.ma/"
+        ]
+      },
+      {
+        "id": "emsi_genie_industriel",
+        "type": "cycle_ingenieur",
+        "nom": "Génie Industriel",
+        "description": "Filière formant des ingénieurs capables de concevoir, optimiser et superviser les processus industriels avec expertise technique et compétences en gestion. Combine gestion de production, logistique chaîne d'approvisionnement, maintenance des systèmes et management de la qualité. Prépare les étudiants à relever les défis sectoriels où efficacité et innovation sont essentielles.",
+        "domaine": "génie industriel",
+        "duree_annees": "3",
+        "langue_enseignement": "Français",
+        "conditions_acces": "Bac scientifique généraliste ou CPGE industriel, test de gestion, entretien",
+        "niveau_entree": "Bac (post-bac) ou Bac+1",
+        "serie_bac_requise": "Sciences (Mathématiques spéciales)",
+        "mode_admission": "Dossier + entretien",
+        "debouches": [
+          "Ingénieur méthodes production",
+          "Manager chaîne d'approvisionnement",
+          "Consultant Lean/optimisation",
+          "Chef de projet industriel",
+          "Responsable qualité production",
+          "Ingénieur logistique",
+          "Engineer supply chain planning",
+          "Directeur opérations industriel"
+        ],
+        "source_urls": [
+          "https://www.emsi.ma/genie-industriel",
+          "https://www.emsi.ma/"
+        ]
+      },
+      {
+        "id": "emsi_genie_financier",
+        "type": "cycle_ingenieur",
+        "nom": "Génie Financier",
+        "description": "Filière unique au Maroc formant des ingénieurs spécialisés en finance. Cette formation d'excellence prépare les étudiants aux multiples dimensions des métiers de la finance avec focus sur maîtrise des outils d'analyse, modélisation et gestion financière. Spécialisations en gestion des risques et actuariat, finance des marchés et innovations financières, stratégie et optimisation des investissements. Combine rigueur quantitative et expertise managériale.",
+        "domaine": "économie et gestion",
+        "duree_annees": "3",
+        "langue_enseignement": "Français",
+        "conditions_acces": "Bac scientifique ou CPGE, test en mathématiques appliquées/économie, entretien motivation finance",
+        "niveau_entree": "Bac (post-bac) ou Bac+1",
+        "serie_bac_requise": "Sciences (Mathématiques spéciales de préférence)",
+        "mode_admission": "Dossier + entretien",
+        "debouches": [
+          "Ingénieur financier quantitatif",
+          "Analyste risques et conformité",
+          "Gestionnaire de portefeuille",
+          "Chef de projet fintech",
+          "Consultant stratégie d'investissement",
+          "Data analyst finance",
+          "Ingénieur actuariat assurance",
+          "Trading engineer/algorithmic trading"
+        ],
+        "source_urls": [
+          "https://www.emsi.ma/genie-financier",
+          "https://www.emsi.ma/"
+        ]
+      }
+    ]
+  }
+]

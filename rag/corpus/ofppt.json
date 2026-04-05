@@ -1,0 +1,165 @@
+[
+  {
+    "id": "ofppt",
+    "nom": "Office de la formation professionnelle et de la promotion du travail (OFPPT)",
+    "type": "office public",
+    "ville": "Casablanca",
+    "pays": "Maroc",
+    "site_officiel": "https://www.ofppt.ma/",
+    "description": "Organisme chargé de la formation professionnelle au Maroc. Le site indique notamment : plus d'un demi-million de places pédagogiques, plus de 7 500 collaborateurs, plus de 50 % de l'offre publique de formation, plus de 200 métiers, plus de 250 établissements. Découverte des filières via le portail MyWay (formations diplômantes, qualifiantes, cours du soir). Siège social à Sidi Maârouf, Casablanca.",
+    "categorie": "formation professionnelle",
+    "serie_bac_requise": "information not found",
+    "langue_enseignement": "information not found",
+    "conditions_acces_generales": "Varie selon le niveau et le type de formation. Pages consultées : conditions d'accès par niveau (formation diplômante : Technicien spécialisé, Technicien, Qualification, Spécialisation ; cours du soir ; formations qualifiantes).",
+    "duree_cycle_principal": "information not found",
+    "frais_annuels_mad": "information not found",
+    "mode_admission": "information not found",
+    "niveau_entree": "information not found",
+    "debouches_generaux": "information not found",
+    "sources": [
+      "https://www.ofppt.ma/",
+      "https://www.ofppt.ma/fr/conditions-dacces",
+      "https://www.ofppt.ma/fr/contact",
+      "https://www.myway.ac.ma/fr/filieres?type_formation=D",
+      "https://www.myway.ac.ma/fr/filieres?type_formation=Q"
+    ],
+    "filieres": [
+      {
+        "id": "ofppt_niveau_technicien_specialise_diplomant",
+        "type": "niveau_formation_diplomante",
+        "nom": "Niveau Technicien Spécialisé (formation diplômante)",
+        "description": "Niveau de formation diplômante décrit dans les conditions d'accès officielles.",
+        "domaine": "formation professionnelle",
+        "duree_annees": "information not found",
+        "langue_enseignement": "information not found",
+        "conditions_acces": "Avoir 30 ans au maximum au 1er septembre de l'année de formation ; être titulaire du baccalauréat ou équivalent ou avoir le diplôme du niveau Technicien (système des passerelles, selon correspondance des filières). Les candidats en cours de préparation du baccalauréat peuvent déposer un dossier avec attestation de scolarité et compléter après les résultats du bac.",
+        "niveau_entree": "bac",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "information not found",
+        "debouches": "information not found",
+        "source_urls": [
+          "https://www.ofppt.ma/fr/conditions-dacces"
+        ]
+      },
+      {
+        "id": "ofppt_niveau_technicien_diplomant",
+        "type": "niveau_formation_diplomante",
+        "nom": "Niveau Technicien (formation diplômante)",
+        "description": "Niveau de formation diplômante décrit dans les conditions d'accès officielles.",
+        "domaine": "formation professionnelle",
+        "duree_annees": "information not found",
+        "langue_enseignement": "information not found",
+        "conditions_acces": "Avoir 30 ans au maximum au 1er septembre de l'année de formation ; avoir achevé la 2e année du baccalauréat ou avoir le diplôme du niveau Qualification (système des passerelles, selon correspondance des filières).",
+        "niveau_entree": "autre",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "information not found",
+        "debouches": "information not found",
+        "source_urls": [
+          "https://www.ofppt.ma/fr/conditions-dacces"
+        ]
+      },
+      {
+        "id": "ofppt_niveau_qualification_diplomant",
+        "type": "niveau_formation_diplomante",
+        "nom": "Niveau Qualification (formation diplômante)",
+        "description": "Niveau de formation diplômante décrit dans les conditions d'accès officielles.",
+        "domaine": "formation professionnelle",
+        "duree_annees": "information not found",
+        "langue_enseignement": "information not found",
+        "conditions_acces": "Être âgé de 30 ans au maximum (32 ans au maximum pour les bénéficiaires du système des passerelles) au 1er septembre de l'année de formation ; avoir au minimum le niveau de la 3e année de l'enseignement secondaire collégial ou être titulaire d'un diplôme de spécialisation (système des passerelles).",
+        "niveau_entree": "autre",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "information not found",
+        "debouches": "information not found",
+        "source_urls": [
+          "https://www.ofppt.ma/fr/conditions-dacces"
+        ]
+      },
+      {
+        "id": "ofppt_niveau_specialisation_diplomant",
+        "type": "niveau_formation_diplomante",
+        "nom": "Niveau Spécialisation (formation diplômante)",
+        "description": "Niveau de formation diplômante décrit dans les conditions d'accès officielles.",
+        "domaine": "formation professionnelle",
+        "duree_annees": "information not found",
+        "langue_enseignement": "information not found",
+        "conditions_acces": "Être âgé entre 15 ans et 30 ans au 1er septembre de l'année de formation ; avoir au minimum le niveau de la 6e année de l'enseignement primaire.",
+        "niveau_entree": "autre",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "information not found",
+        "debouches": "information not found",
+        "source_urls": [
+          "https://www.ofppt.ma/fr/conditions-dacces"
+        ]
+      },
+      {
+        "id": "ofppt_cours_soir_ts",
+        "type": "cours_du_soir",
+        "nom": "Cours du soir — Technicien Spécialisé",
+        "description": "Conditions d'accès spécifiques au dispositif cours du soir, niveau TS.",
+        "domaine": "formation professionnelle",
+        "duree_annees": "information not found",
+        "langue_enseignement": "information not found",
+        "conditions_acces": "Titulaire du baccalauréat ou d'un diplôme de Technicien reconnu par les pouvoirs publics ; âgé d'au moins 20 ans à la date d'inscription ; au moins une année d'expérience professionnelle effective.",
+        "niveau_entree": "bac",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "information not found",
+        "debouches": "information not found",
+        "source_urls": [
+          "https://www.ofppt.ma/fr/conditions-dacces"
+        ]
+      },
+      {
+        "id": "ofppt_cours_soir_technicien",
+        "type": "cours_du_soir",
+        "nom": "Cours du soir — Technicien",
+        "description": "Conditions d'accès spécifiques au dispositif cours du soir, niveau Technicien.",
+        "domaine": "formation professionnelle",
+        "duree_annees": "information not found",
+        "langue_enseignement": "information not found",
+        "conditions_acces": "Niveau de la 2e année du baccalauréat ou diplôme de qualification professionnelle reconnu ; âgé d'au moins 20 ans à la date d'inscription ; au moins une année d'expérience professionnelle effective.",
+        "niveau_entree": "autre",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "information not found",
+        "debouches": "information not found",
+        "source_urls": [
+          "https://www.ofppt.ma/fr/conditions-dacces"
+        ]
+      },
+      {
+        "id": "ofppt_cours_soir_qualification",
+        "type": "cours_du_soir",
+        "nom": "Cours du soir — Qualification",
+        "description": "Conditions d'accès spécifiques au dispositif cours du soir, niveau Qualification.",
+        "domaine": "formation professionnelle",
+        "duree_annees": "information not found",
+        "langue_enseignement": "information not found",
+        "conditions_acces": "Au minimum le niveau de la 3e année de l'enseignement secondaire collégial ou diplôme de spécialisation reconnu ; âgé d'au moins 18 ans à la date d'inscription ; au moins une année d'expérience professionnelle effective.",
+        "niveau_entree": "autre",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "information not found",
+        "debouches": "information not found",
+        "source_urls": [
+          "https://www.ofppt.ma/fr/conditions-dacces"
+        ]
+      },
+      {
+        "id": "ofppt_formations_qualifiantes",
+        "type": "formation_qualifiante",
+        "nom": "Formations qualifiantes",
+        "description": "Conditions générales indiquées pour les formations qualifiantes sur la page officielle.",
+        "domaine": "formation professionnelle",
+        "duree_annees": "information not found",
+        "langue_enseignement": "information not found",
+        "conditions_acces": "Avoir le niveau scolaire requis pour la formation choisie ; être âgé d'au moins 15 ans.",
+        "niveau_entree": "autre",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "information not found",
+        "debouches": "information not found",
+        "source_urls": [
+          "https://www.ofppt.ma/fr/conditions-dacces"
+        ]
+      }
+    ]
+  }
+]

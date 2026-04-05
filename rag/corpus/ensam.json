@@ -1,0 +1,136 @@
+[
+  {
+    "id": "ensam_casablanca",
+    "nom": "ENSAM Casablanca",
+    "type": "école d'ingénieurs publique",
+    "ville": "Casablanca",
+    "pays": "Maroc",
+    "site_officiel": "https://www.ensam-casa.ma",
+    "description": "L'ENSAM de Casablanca est une école d'ingénieurs qui a pour mission de préparer les étudiants-ingénieurs aux métiers du secteur industriel【58†L158-L161】.",
+    "categorie": "école d'ingénieurs",
+    "serie_bac_requise": ["Sciences Mathématiques", "Sciences Physiques"],
+    "langue_enseignement": "fr",
+    "conditions_acces_generales": "concours national (post-bac) - semestre préparatoire intégré, puis cycle ingénieur ou l'accès parallele pour les titulaires d'un bac+2 ou d'une licence",
+    "duree_cycle_principal": 5,
+    "frais_annuels_mad": 0,
+    "mode_admission": "concours",
+    "niveau_entree": "bac",
+    "debouches_generaux": ["Ingénieur logiciel", "Data Scientist", "Cybersecurity Specialist", "DevOps Engineer", "Ingénieur mécanique", "Ingénieur électricien", "Responsable production", "Supply Chain Manager", "Ingénieur qualité", "Roboticien", "Ingénieur en automatisation", "Ingénieur en maintenance industrielle", "Chef de projet industriel", "Consultant en ingénierie", "Entrepreneur dans le secteur industriel"],
+    "sources": [
+      "https://www.ensam-casa.ma/article/details?id=86",
+      "https://www.ensam-casa.ma/filieres/details?id=54"
+    ],
+    "filieres": [
+      {
+        "id": "ensam_casablanca_genie_systemes_industriels",
+        "type": "cycle_ingenieur",
+        "nom": "Génie des Systèmes Industriels",
+        "description": "formation axée sur la conception, l'optimisation et la gestion des systèmes de production et de logistique dans les industries manufacturières et de services",
+        "domaine": "génie industriel",
+        "duree_annees": 3,
+        "niveau_entree": "bac",
+        "serie_bac_requise": ["Sciences Mathématiques", "Sciences Physiques"],
+        "source_urls": ["https://www.ensam-casa.ma/filieres/details?id=54"]
+      },
+      {
+        "id": "ensam_casablanca_genie_systemes_mecaniques_industriels",
+        "type": "cycle_ingenieur",
+        "nom": "Génie des Systèmes Mécaniques Industriels",
+        "description": "formation axée sur la conception, l'optimisation et la gestion des systèmes mécaniques dans les industries manufacturières et de services",
+        "domaine": "génie mécanique",
+        "duree_annees": 3,
+        "niveau_entree": "bac",
+        "serie_bac_requise": ["Sciences Mathématiques", "Sciences Physiques"],
+        "source_urls": ["https://www.ensam-casa.ma/filieres/details?id=54"]
+      },
+      {
+        "id": "ensam_casablanca_genie_electromecanique",
+        "type": "cycle_ingenieur",
+        "nom": "Génie Électromécanique",
+        "description": "formation axée sur la conception, l'optimisation et la gestion des systèmes électromécaniques dans les industries manufacturières et de services",
+        "domaine": "génie électromécanique",
+        "duree_annees": 3,
+        "niveau_entree": "bac",
+        "serie_bac_requise": ["Sciences Mathématiques", "Sciences Physiques"],
+        "source_urls": ["https://www.ensam-casa.ma/filieres/details?id=54"]
+      },
+      {
+        "id": "ensam_casablanca_intelligence_artificielle_informatique",
+        "type": "cycle_ingenieur",
+        "nom": "Intelligence Artificielle et Génie Informatique",
+        "description": "formation axée sur la conception, l'optimisation et la gestion des systèmes d'intelligence artificielle dans les industries manufacturières et de services",
+        "domaine": "informatique",
+        "duree_annees": 3,
+        "niveau_entree": "bac",
+        "serie_bac_requise": ["Sciences Mathématiques", "Sciences Physiques"],
+        "source_urls": ["https://www.ensam-casa.ma/filieres/details?id=54"]
+      },
+      {
+        "id": "ensam_casablanca_cybersecurite_cloud",
+        "type": "cycle_ingenieur",
+        "nom": "Cybersécurité et Cloud Computing",
+        "description": "formation axée sur la conception, l'optimisation et la gestion des systèmes de cybersécurité et de cloud computing dans les industries manufacturières et de services",
+        "domaine": "sécurité informatique",
+        "duree_annees": 3,
+        "niveau_entree": "bac",
+        "serie_bac_requise": ["Sciences Mathématiques", "Sciences Physiques"],
+        "source_urls": ["https://www.ensam-casa.ma/filieres/details?id=54"]
+      },
+      {
+        "id": "ensam_casablanca_genie_mecatronique",
+        "type": "cycle_ingenieur",
+        "nom": "Génie Mécatronique pour l'Automobile et l'Aéronautique",
+        "description": "formation axée sur la conception, l'optimisation et la gestion des systèmes mécatroniques dans les industries automobile et aéronautique",
+        "domaine": "génie mécatronique",
+        "duree_annees": 3,
+        "niveau_entree": "bac",
+        "serie_bac_requise": ["Sciences Mathématiques", "Sciences Physiques"],
+        "source_urls": ["https://www.ensam-casa.ma/filieres/details?id=54"]
+      },
+      {
+        "id": "ensam_casablanca_genie_electrique_intelligent",
+        "type": "cycle_ingenieur",
+        "nom": "Management des Systèmes Électriques Intelligents",
+        "description": "formation axée sur la conception, l'optimisation et la gestion des systèmes électriques intelligents dans les industries manufacturières et de services",
+        "domaine": "génie électrique",
+        "duree_annees": 3,
+        "niveau_entree": "bac",
+        "serie_bac_requise": ["Sciences Mathématiques", "Sciences Physiques"],
+        "source_urls": ["https://www.ensam-casa.ma/filieres/details?id=54"]
+      },
+      {
+        "id": "ensam_casablanca_technologies_immersives",
+        "type": "Master",
+        "nom": "Technologies Immersives",
+        "description": "formation en réalité virtuelle, augmentée et mixte (VR/AR) pour les applications industrielles et ludiques",
+        "domaine": "technologies numériques",
+        "duree_annees": 2,
+        "niveau_entree": "bac+3",
+        "serie_bac_requise": ["Sciences Mathématiques", "Sciences Physiques"],
+        "source_urls": ["https://www.ensam-casa.ma/filieres/details?id=54"]
+      },
+      {
+        "id": "ensam_casablanca_big_data_iot",
+        "type": "Master",
+        "nom": "Big Data et Internet des Objets",
+        "description": "formation sur l'analyse de données massives et les technologies IoT pour l'industrie et la recherche",
+        "domaine": "sciences des données",
+        "duree_annees": 2,
+        "niveau_entree": "bac+3",
+        "serie_bac_requise": ["Sciences Mathématiques", "Sciences Physiques"],
+        "source_urls": ["https://www.ensam-casa.ma/filieres/details?id=54"]
+      },
+      {
+        "id": "ensam_casablanca_ingenierie_digitale_sante",
+        "type": "Master",
+        "nom": "Ingénierie Digitale pour les Métiers de la Santé",
+        "description": "formation sur les systèmes numériques appliqués aux domaines médical et paramédical",
+        "domaine": "santé numérique",
+        "duree_annees": 2,
+        "niveau_entree": "bac+3",
+        "serie_bac_requise": ["Sciences Mathématiques", "Sciences Physiques"],
+        "source_urls": ["https://www.ensam-casa.ma/filieres/details?id=54"]
+      }
+    ]
+  }
+]

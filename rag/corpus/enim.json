@@ -1,0 +1,99 @@
+[
+  {
+    "id": "ensmr_rabat",
+    "nom": "École Nationale Supérieure des Mines de Rabat (ENSMR), ex-École Nationale de l'Industrie Minérale (ENIM)",
+    "type": "école d'ingénieurs publique",
+    "ville": "Rabat",
+    "pays": "Maroc",
+    "site_officiel": "https://www.enim.ac.ma/",
+    "description": "L’établissement présente l’historique de l’« Ecole Nationale de l’Industrie Minérale » (création 1972) et son évolution ; les pages consultées intitulent désormais l’établissement « Ecole Nationale Supérieure des Mines de Rabat (ENSMR) » et indiquent l’ancrage « Ex ENIM » dans la formation d’ingénieurs d’État. La formation d’ingénieurs d’État met l’accent sur une base diversifiée, des options par département (cours spécialisés, TD, TP, mini-projets, visites d’usines), et un travail de fin d’études reposant sur un stage industriel de trois mois, en vue de l’intégration professionnelle. Des objectifs de formation (polyvalence, technologies de pointe, réalité professionnelle, travail en équipe, esprit d’analyse et de synthèse, adaptation au changement) sont énoncés sur la page « Formation d’ingénieurs ».",
+    "categorie": "école d'ingénieurs",
+    "serie_bac_requise": "information not found",
+    "langue_enseignement": "fr",
+    "conditions_acces_generales": "information not found",
+    "duree_cycle_principal": "information not found",
+    "frais_annuels_mad": "information not found",
+    "mode_admission": "information not found",
+    "niveau_entree": "information not found",
+    "debouches_generaux": [
+      "Page « Formation d’ingénieurs » : la formation de base permet aux lauréats de l’ENSMR de « s’adapter facilement et rapidement à d’autres domaines de compétences » que leur option ; le travail de fin d’études et le stage industriel de trois mois visent à « préparer à une intégration facile au milieu professionnel »."
+    ],
+    "sources": [
+      "https://www.enim.ac.ma/",
+      "https://www.enim.ac.ma/lenim/",
+      "https://www.enim.ac.ma/formation-dingenieurs/",
+      "https://www.enim.ac.ma/departement-informatique/"
+    ],
+    "filieres": [
+      {
+        "id": "ensmr_rabat_genie_informatique",
+        "type": "cycle_ingenieur",
+        "nom": "Génie Informatique",
+        "description": "Objectifs affichés : former des ingénieurs d’État informaticiens capables d’anticiper l’évolution des TIC et d’exercer dans différents domaines des TIC ; développer des compétences méthodologiques et techniques, management de l’information, vision transverse des processus métiers, travail en équipe pluridisciplinaire et multiculturelle, conduite du changement. Options de semestre 5 mentionnées : « Ingénierie de la digitalisation » et « Ingénierie des données ».",
+        "domaine": "informatique et systèmes d'information",
+        "duree_annees": "information not found",
+        "langue_enseignement": "fr",
+        "conditions_acces": "information not found",
+        "niveau_entree": "information not found",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "information not found",
+        "debouches": [
+          "Ingénieur Logiciel",
+          "Ingénieur Data",
+          "Ingénieur Digitalisation des Processus",
+          "Ingénieur Sécurité",
+          "Responsable Système d’Information",
+          "Manager de Projets SI",
+          "Conseiller en TIC auprès des directions générales",
+          "Consultant en gouvernance des SI, en conduite de changement dans les organisations",
+          "Assistant à la maîtrise d’ouvrage ou à la maîtrise d’œuvre",
+          "Manager de l’innovation"
+        ],
+        "source_urls": [
+          "https://www.enim.ac.ma/departement-informatique/"
+        ]
+      },
+      {
+        "id": "ensmr_rabat_genie_productique",
+        "type": "cycle_ingenieur",
+        "nom": "Génie Productique",
+        "description": "Formation orientée vers le management et la production : maîtrise des systèmes de production et technologies associées, gestion industrielle, management de projets et des ressources humaines ; programme équilibré en management et production ; objectifs similaires à la filière informatique sur les TIC, la stratégie, l’organisation et le travail en équipe.",
+        "domaine": "génie industriel et systèmes de production",
+        "duree_annees": "information not found",
+        "langue_enseignement": "fr",
+        "conditions_acces": "information not found",
+        "niveau_entree": "information not found",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "information not found",
+        "debouches": [
+          "Architecte SP",
+          "Responsable projets SP",
+          "Consultant en gouvernance des SP, en conduite de changement dans les organisations",
+          "Consultant (logistique, production, ERP, tableaux de bord)",
+          "Assistant à la maîtrise d’ouvrage ou à la maîtrise d’œuvre",
+          "Manager de l’innovation"
+        ],
+        "source_urls": [
+          "https://www.enim.ac.ma/departement-informatique/"
+        ]
+      },
+      {
+        "id": "ensmr_rabat_filieres_cnaces_mention_2002_2012",
+        "type": "reference_historique",
+        "nom": "Filières mentionnées dans la chronologie 2002-2012 (accréditation CNACES)",
+        "description": "Le site indique que, dans le cadre du système LMD, onze filières présentées par l’ENIM ont été accréditées par la CNACES : Génie Informatique ; Systèmes de Production ; Electromécanique avec 2 options Electromécanique et Maintenance Industrielle ; Génie Energétique ; Ingénierie des Procédés ; Management Industriel ; Environnement et Sécurité Industriels ; Matériaux et Contrôle Qualité ; Mines avec l’option Aménagement, Exploitation et Protection du Sol et sous Sol ; Génie Hydro-Géotechnique ; Génie Mécanique et Développement. (Chronologie 2002-2012 sur la page consultée ; statut actuel de chaque intitulé non vérifié au-delà de ce texte.)",
+        "domaine": "ingénierie",
+        "duree_annees": "information not found",
+        "langue_enseignement": "fr",
+        "conditions_acces": "information not found",
+        "niveau_entree": "information not found",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "information not found",
+        "debouches": "information not found",
+        "source_urls": [
+          "https://www.enim.ac.ma/lenim/"
+        ]
+      }
+    ]
+  }
+]

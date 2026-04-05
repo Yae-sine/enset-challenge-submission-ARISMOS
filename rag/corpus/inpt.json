@@ -1,0 +1,48 @@
+[
+  {
+    "id": "inpt_rabat",
+    "nom": "Institut National des Postes et Télécommunications (INPT)",
+    "type": "établissement public d'enseignement supérieur",
+    "ville": "Rabat",
+    "pays": "Maroc",
+    "site_officiel": "https://www.inpt.ac.ma/",
+    "description": "Établissement rattaché à l'Agence Nationale de Réglementation des Télécommunications (ANRT) en application de la loi 24-96 relative à la poste et aux télécommunications (dahir n°1-97-162 du 7 août 1997), modifiée et complétée (article 107), et régi par le décret n°2-11-82 du 8 août 2011. Mission : formation, recherche et expertise dans les télécommunications, les technologies de l'information et de la communication et disciplines connexes, incluant formation initiale et continue, recherche scientifique et technique, et insertion des lauréats dans la vie active. Le cycle ingénieur a été refondu dans le cadre de l'initiative « Go Digital by INPT » : sept filières pour les métiers du digital depuis 2018-2019 (année académique indiquée sur le site).",
+    "categorie": "école d'ingénieurs",
+    "serie_bac_requise": "information not found",
+    "langue_enseignement": "information not found",
+    "conditions_acces_generales": "Accès aux sept filières du cycle ingénieur : réussite au Concours National Commun (CNC — filières MP, PSI et TSI) pour l'entrée en première année ; ou réussite au concours d'accès en première année pour titulaires de DEUG, DEUST, DEUP ou DUT en mathématiques et/ou physique et/ou informatique ; ou réussite au concours d'accès en deuxième année pour titulaires d'une licence en mathématiques et/ou physique et/ou informatique après DEUG, DEUST, DEUP ou DUT.",
+    "duree_cycle_principal": 3,
+    "frais_annuels_mad": "information not found",
+    "mode_admission": "mixte",
+    "niveau_entree": "bac+2",
+    "debouches_generaux": [
+      "Selon la page « Dates et chiffres clés » : 78 % des lauréats ont obtenu leur premier emploi au bout des trois premiers mois et 96 % au bout de neuf mois (période de référence non précisée sur la page consultée)."
+    ],
+    "sources": [
+      "https://www.inpt.ac.ma/fr/pr%C3%A9sentation",
+      "https://www.inpt.ac.ma/fr/cycle-ing%C3%A9nieur",
+      "https://www.inpt.ac.ma/fr/dates-et-chiffres-cl%C3%A9s",
+      "https://www.inpt.ac.ma/"
+    ],
+    "filieres": [
+      {
+        "id": "inpt_rabat_cycle_ingenieur_sept_filieres_digital",
+        "type": "cycle_ingenieur",
+        "nom": "Sept filières « métiers du digital » (Go Digital by INPT)",
+        "description": "Refonte des programmes du cycle ingénieur : sept filières orientées vers les métiers du digital, mises en place à partir de l'année universitaire 2018-2019. Les intitulés détaillés de chaque filière n'apparaissaient pas sur les pages officielles consultées (accueil « Filières métiers », page « 7 Filières », contenu principal sans liste nominative).",
+        "domaine": "télécommunications et technologies de l'information",
+        "duree_annees": 3,
+        "langue_enseignement": "information not found",
+        "conditions_acces": "Identiques aux conditions générales d'accès au cycle ingénieur (CNC MP/PSI/TSI en 1re année ; concours 1re année pour DEUG/DEUST/DEUP/DUT en math/physique/info ; concours 2e année pour licence en math/physique/info après DEUG/DEUST/DEUP/DUT).",
+        "niveau_entree": "bac+2",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "concours",
+        "debouches": "information not found",
+        "source_urls": [
+          "https://www.inpt.ac.ma/fr/cycle-ing%C3%A9nieur",
+          "http://www.inpt.ac.ma/fr/fili%C3%A8res-m%C3%A9tiers-acc%C3%A8s-en-1%C3%A8re-ann%C3%A9e"
+        ]
+      }
+    ]
+  }
+]

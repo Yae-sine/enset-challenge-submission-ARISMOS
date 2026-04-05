@@ -1,0 +1,24 @@
+[
+  {
+    "id": "fst_beni_mellal",
+    "nom": "Faculté des Sciences et Techniques — Beni Mellal",
+    "type": "faculté publique",
+    "ville": "Beni Mellal",
+    "pays": "Maroc",
+    "site_officiel": "https://www.fstbm.ac.ma/",
+    "description": "Faculté des Sciences et Techniques rattachée à l'Université Sultan Moulay Slimane (coordonnées de contact figurant sur le site consulté : BP 523, 23000 Beni Mellal). Le contenu récupéré porte principalement sur une conférence internationale (2024) ; les licences, masters et conditions d'accès détaillées ne sont pas extraites de cette page.",
+    "categorie": "faculté",
+    "serie_bac_requise": "information not found",
+    "langue_enseignement": "information not found",
+    "conditions_acces_generales": "information not found",
+    "duree_cycle_principal": "information not found",
+    "frais_annuels_mad": "information not found",
+    "mode_admission": "information not found",
+    "niveau_entree": "information not found",
+    "debouches_generaux": "information not found",
+    "sources": [
+      "https://www.fstbm.ac.ma/"
+    ],
+    "filieres": []
+  }
+]

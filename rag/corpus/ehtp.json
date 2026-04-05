@@ -1,0 +1,245 @@
+[
+  {
+    "id": "ehtp_casablanca",
+    "nom": "École Hassania des Travaux Publics (EHTP)",
+    "type": "école d'ingénieurs publique",
+    "ville": "Casablanca",
+    "pays": "Maroc",
+    "site_officiel": "https://www.ehtp.ac.ma/",
+    "description": "Grande école d'ingénieurs à Casablanca, créée en 1971 par le ministère des Travaux publics pour former des ingénieurs dans les secteurs du BTP, de l'eau, de l'énergie électrique et de l'aménagement du territoire. Érigée en 1993 en établissement public sous la tutelle du ministère de l'Équipement et du Transport (libellés historiques sur la page « Présentation »). L'accueil du site affiche des indicateurs (étudiants inscrits, élèves ingénieurs, partenaires, enseignants, doctorants, doubles diplômes et échanges, départements, filières, laboratoires, formations continues, lauréats) — chiffres non recopiés ici car sujets à mise à jour sans période de référence précise sur la page capturée.",
+    "categorie": "école d'ingénieurs",
+    "serie_bac_requise": ["Sciences Mathématiques", "Sciences Physiques"],
+    "langue_enseignement": "fr",
+    "conditions_acces_generales": "Accès en 1re année du cycle ingénieur selon le nombre de places, le choix et le classement au concours : Concours National Commun pour les candidats issus des CPGE (filières MP, PSI et TSI) ; concours parallèle annuel pour les titulaires de DEUG, DEUST, DEUP ou équivalent en filières scientifiques ou techniques, et pour les titulaires de Licence d'Études Fondamentales, Licence Professionnelle, Licence en Sciences et Techniques ou équivalent dans les domaines de formation de l'EHTP.",
+    "duree_cycle_principal": 3,
+    "frais_annuels_mad": 0,
+    "mode_admission": "concours",
+    "niveau_entree": "bac+2",
+    "debouches_generaux": ["Ingénieur civil", "Ingénieur géologue", "Ingénieur hydrogéologue", "Ingénieur géomaticien", "Ingénieur météorologiste", "Ingénieur en génie électrique", "Ingénieur en génie informatique", "Ingénieur en génie logistique et transports", "Ingénieur en hydraulique et environnement", "Ingénieur en ville et environnement"],
+    "sources": [
+      "https://www.ehtp.ac.ma/",
+      "https://www.ehtp.ac.ma/presentation/",
+      "https://www.ehtp.ac.ma/contact/",
+      "https://www.ehtp.ac.ma/ingenieur-ehtp/",
+      "https://www.ehtp.ac.ma/filieres/",
+      "https://www.ehtp.ac.ma/filieres/genie-civil/",
+      "https://www.ehtp.ac.ma/filieres/genie-electrique/",
+      "https://www.ehtp.ac.ma/filieres/genie-informatique/",
+      "https://www.ehtp.ac.ma/filieres/genie-logistique-et-transports/",
+      "https://www.ehtp.ac.ma/filieres/ingenierie-de-lhydraulique-et-de-lenvironnement/",
+      "https://www.ehtp.ac.ma/filieres/ingenierie-de-la-ville-et-de-lenvironnement/",
+      "https://www.ehtp.ac.ma/filieres/sciences-de-linformation-geographique/",
+      "https://www.ehtp.ac.ma/filieres/meteorologie/"
+    ],
+    "filieres": [
+      {
+        "id": "ehtp_casablanca_genie_civil",
+        "type": "cycle_ingenieur",
+        "nom": "Génie Civil",
+        "description": "Département Pont, Chaussées et Transport ; spécialité : Ingénierie de Bâtiment, Infrastructures de Transport. Tronc commun de 4 semestres en métiers du génie civil ; 3e année en spécialisation Ingénierie de Bâtiment ou Infrastructures de Transport. Plus de 50 % des cours de 3e année assurés par des praticiens du secteur BTP (selon la page filière).",
+        "domaine": "génie civil",
+        "duree_annees": 3,
+        "langue_enseignement": "information not found",
+        "conditions_acces": "Identiques aux voies d'accès nationales et concours parallèle décrites au niveau de l'établissement (places, choix, classement).",
+        "niveau_entree": "bac+2",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "mixte",
+        "debouches": [
+          "Études, conseils et ingénierie (bureaux d'études, contrôle, coordination, laboratoires)",
+          "Direction de travaux (construction bâtiment, routes, ouvrages d'art)",
+          "Planification, réalisation et gestion de projets urbains (VRD, transport, réseaux)",
+          "Gestion d'infrastructures routières, autoroutières, ferroviaires, portuaires, hydrauliques",
+          "Gestion de patrimoine immobilier et urbain",
+          "Conduite de projets complexes et innovants",
+          "Ingénierie civil et financière (banques, assurances et assimilés)",
+          "Conduite de projets industriels (matériaux de construction, préfabrication)",
+          "Recherche et développement académiques ou industriels"
+        ],
+        "source_urls": [
+          "https://www.ehtp.ac.ma/filieres/genie-civil/",
+          "https://www.ehtp.ac.ma/ingenieur-ehtp/"
+        ]
+      },
+      {
+        "id": "ehtp_casablanca_genie_electrique",
+        "type": "cycle_ingenieur",
+        "nom": "Génie Electrique",
+        "description": "Département Génie Électrique et télécommunication ; spécialité : ingénieurs spécialistes en génie électrique. Filière créée en 1971 ; enseignement sur 5 semestres plus 1 semestre PFE ; tronc commun 4 semestres puis modules optionnels au 5e semestre (deux modules au choix).",
+        "domaine": "génie électrique",
+        "duree_annees": 3,
+        "langue_enseignement": "information not found",
+        "conditions_acces": "Identiques aux voies d'accès nationales et concours parallèle décrites au niveau de l'établissement.",
+        "niveau_entree": "bac+2",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "mixte",
+        "debouches": [
+          "Profil généraliste dans le domaine du génie électrique avec spécialisation possible selon options",
+          "Emplois dans administrations, collectivités, banques, grandes entreprises publiques et semi-publiques, entreprises privées classiques",
+          "Secteurs liés aux nouvelles technologies : télécommunications, téléphonie mobile, construction aéronautique, régulation, montage automobile, audiovisuel, robotique, fabrication de matériel informatique (liste illustrative sur la page filière)"
+        ],
+        "source_urls": [
+          "https://www.ehtp.ac.ma/filieres/genie-electrique/",
+          "https://www.ehtp.ac.ma/ingenieur-ehtp/"
+        ]
+      },
+      {
+        "id": "ehtp_casablanca_genie_informatique",
+        "type": "cycle_ingenieur",
+        "nom": "Génie Informatique",
+        "description": "Département Mathématiques, Informatique et Géomatique ; spécialités : Génie Logiciel, Bases de Données et Systèmes d'Information, Systèmes et Réseaux, Management informatique.",
+        "domaine": "informatique",
+        "duree_annees": 3,
+        "langue_enseignement": "information not found",
+        "conditions_acces": "Identiques aux voies d'accès nationales et concours parallèle décrites au niveau de l'établissement.",
+        "niveau_entree": "bac+2",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "mixte",
+        "debouches": [
+          "Ingénieur d'études",
+          "Chef de projet",
+          "Ingénieur de développement",
+          "Ingénieur Réseaux",
+          "Administrateur Réseaux",
+          "Administrateur Système",
+          "Ingénieur Qualité",
+          "Ingénieur Sécurité",
+          "Consultant",
+          "Enseignant",
+          "Chercheur",
+          "Secteur public, enseignement supérieur",
+          "Secteur semi-public : offices, régies",
+          "Secteur privé : SSII, éditeurs de logiciels, conseil, banques, assurances, opérateurs télécoms"
+        ],
+        "source_urls": [
+          "https://www.ehtp.ac.ma/filieres/genie-informatique/",
+          "https://www.ehtp.ac.ma/ingenieur-ehtp/"
+        ]
+      },
+      {
+        "id": "ehtp_casablanca_genie_logistique_transports",
+        "type": "cycle_ingenieur",
+        "nom": "Génie Logistique et Transports",
+        "description": "Département Logistique et Transports ; spécialités : Ingénierie de la logistique, Ingénierie des Transports. Approche pédagogique combinant théorie et validation empirique ; équipe d'enseignants-chercheurs et vacataires professionnels.",
+        "domaine": "logistique et transport",
+        "duree_annees": 3,
+        "langue_enseignement": "information not found",
+        "conditions_acces": "Identiques aux voies d'accès nationales et concours parallèle décrites au niveau de l'établissement.",
+        "niveau_entree": "bac+2",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "mixte",
+        "debouches": [
+          "Responsable des achats, gestion des stocks, transport, planification de la production, prévision des ventes",
+          "Expert en bureau de conseil en gestion logistique, transitaires",
+          "Responsable du développement de combinaisons de modes de transport",
+          "Responsable de conception, planification et étude de composantes de la chaîne logistique",
+          "Postes en stations aéroportuaires, portuaires",
+          "Responsable en fédération marocaine de transports, veille technologique et sociale",
+          "Ministère de l'Équipement, du Transport, de la Logistique et de l'Eau et départements associés",
+          "Établissements et agences publics (SNTL, AMDL, NARSA, ADM, etc., selon la page filière)",
+          "Entreprises de transport et opérateurs de réseaux de transport"
+        ],
+        "source_urls": [
+          "https://www.ehtp.ac.ma/filieres/genie-logistique-et-transports/",
+          "https://www.ehtp.ac.ma/ingenieur-ehtp/"
+        ]
+      },
+      {
+        "id": "ehtp_casablanca_ingenierie_hydraulique_environnement",
+        "type": "cycle_ingenieur",
+        "nom": "Ingénierie de l'Hydraulique et de l'Environnement",
+        "description": "Département Hydraulique, Environnement et Climat ; spécialité : ingénieurs spécialistes en génie hydraulique et environnement. Évolution depuis la filière GHEV (2008), scindée en IHE et IVE à la rentrée 2015-2016. Formation sur trois ans avec projets culturels, stages d'été et PFE en lien avec le secteur professionnel.",
+        "domaine": "hydraulique et environnement",
+        "duree_annees": 3,
+        "langue_enseignement": "information not found",
+        "conditions_acces": "Identiques aux voies d'accès nationales et concours parallèle décrites au niveau de l'établissement.",
+        "niveau_entree": "bac+2",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "mixte",
+        "debouches": [
+          "Domaines d'activité : génie civil, gestion et protection des ressources en eau, gestion de l'environnement, aménagements hydrauliques, infrastructures hydrauliques de base",
+          "Métiers : gestionnaire et décideur, chef ou directeur de projets, ingénieur d'études et de conception, ingénieur d'affaires, ingénieur R&D, ingénieur en développement durable",
+          "Employeurs cités : ministères, agences de bassin, régies eau/assainissement, ONEE, offices agricoles, agences portuaires, agences urbaines, agences de développement régional, entreprises génie civil et hydraulique, bureaux d'études"
+        ],
+        "source_urls": [
+          "https://www.ehtp.ac.ma/filieres/ingenierie-de-lhydraulique-et-de-lenvironnement/",
+          "https://www.ehtp.ac.ma/ingenieur-ehtp/"
+        ]
+      },
+      {
+        "id": "ehtp_casablanca_ingenierie_ville_environnement",
+        "type": "cycle_ingenieur",
+        "nom": "Ingénierie de la ville et de l'Environnement",
+        "description": "Département Hydraulique, Environnement et Climat ; spécialité : ingénieurs spécialistes en génie urbain et environnement. Issue du même socle historique GHEV que l'IHE ; scission en 2015-2016. Formation sur trois ans.",
+        "domaine": "urbanisme et environnement",
+        "duree_annees": 3,
+        "langue_enseignement": "information not found",
+        "conditions_acces": "Identiques aux voies d'accès nationales et concours parallèle décrites au niveau de l'établissement.",
+        "niveau_entree": "bac+2",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "mixte",
+        "debouches": [
+          "Domaines d'activité : aménagement, urbanisme, bâtiment et génie civil, transports et mobilités, déchets, énergie, eau, environnement",
+          "Métiers : gestionnaire et décideur, chef ou directeur de projet, ingénieur de bureau d'étude et de conception, ingénieur R&D, ingénieur en développement durable",
+          "Débouchés : collectivités, sociétés de développement local, agences régionales, agences d'urbanisation, agences de développement régional, agences de bassin, offices, régies, administration, entreprises, bureaux d'études, finance-banque-assurance, sociétés d'aménagement"
+        ],
+        "source_urls": [
+          "https://www.ehtp.ac.ma/filieres/ingenierie-de-la-ville-et-de-lenvironnement/",
+          "https://www.ehtp.ac.ma/ingenieur-ehtp/"
+        ]
+      },
+      {
+        "id": "ehtp_casablanca_sciences_information_geographique",
+        "type": "cycle_ingenieur",
+        "nom": "Sciences de l'Information Géographique",
+        "description": "Département Mathématiques, Informatique et Géomatique ; spécialité : ingénieurs spécialistes en géomatique. Filière créée en 1998. Programme en trois blocs : commun EHTP (langues, management, mathématiques), informatique, spatial (acquisition, analyse, géo-informatique).",
+        "domaine": "géomatique",
+        "duree_annees": 3,
+        "langue_enseignement": "information not found",
+        "conditions_acces": "Identiques aux voies d'accès nationales et concours parallèle décrites au niveau de l'établissement.",
+        "niveau_entree": "bac+2",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "mixte",
+        "debouches": [
+          "Selon la page filière : 20 % des lauréats exercent à l'échelle internationale",
+          "Ministères (équipement et transport, eau, aménagement du territoire)",
+          "Offices et agences (agences urbaines, bassins hydrauliques, régies eau/électricité, OFPPT, OCP, ONEE, ORMVA, etc.)",
+          "Secteur privé : SSII, sociétés SIG, bureaux d'études, cabinets de conseil, banques, assurances",
+          "Enseignement supérieur et laboratoires de recherche (Maroc, France, Canada)",
+          "International : ONU, France, Angleterre, Canada, USA, Japon, UAE, KSA (liste figurant sur la page filière)"
+        ],
+        "source_urls": [
+          "https://www.ehtp.ac.ma/filieres/sciences-de-linformation-geographique/",
+          "https://www.ehtp.ac.ma/ingenieur-ehtp/"
+        ]
+      },
+      {
+        "id": "ehtp_casablanca_meteorologie",
+        "type": "cycle_ingenieur",
+        "nom": "Météorologie",
+        "description": "Département Hydraulique, Environnement et Climat ; spécialité : ingénieurs spécialistes en génie météorologie. Seule formation en météorologie au Maroc selon la page filière ; convention tripartite avec la DMN et l'École nationale de météorologie de Toulouse (1992).",
+        "domaine": "météorologie",
+        "duree_annees": 3,
+        "langue_enseignement": "information not found",
+        "conditions_acces": "Identiques aux voies d'accès nationales et concours parallèle décrites au niveau de l'établissement.",
+        "niveau_entree": "bac+2",
+        "serie_bac_requise": "information not found",
+        "mode_admission": "mixte",
+        "debouches": [
+          "Météorologie maritime",
+          "Météorologie aéronautique",
+          "Climatologie",
+          "Prévision",
+          "Observation",
+          "Mesure et interprétation",
+          "Secteur public : DMN",
+          "Secteur semi-public : agences de bassins",
+          "Secteur privé (mention sur la page sans liste détaillée)"
+        ],
+        "source_urls": [
+          "https://www.ehtp.ac.ma/filieres/meteorologie/",
+          "https://www.ehtp.ac.ma/ingenieur-ehtp/"
+        ]
+      }
+    ]
+  }
+]

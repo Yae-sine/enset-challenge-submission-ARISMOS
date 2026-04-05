@@ -1,0 +1,237 @@
+[
+  {
+    "id": "emi_rabat",
+    "nom": "École Mohammadia d'Ingénieurs (EMI)",
+    "type": "école d'ingénieurs publique",
+    "ville": "Rabat",
+    "pays": "Maroc",
+    "site_officiel": "https://www.emi.ac.ma/",
+    "description": "Grande école d'ingénieurs généraliste fondée le 23 octobre 1959, affiliée à l'Université Mohammed V de Rabat et rattachée au ministère de l'Enseignement supérieur, de la Recherche scientifique et de l'Innovation. Située dans le quartier Agdal sur 8 hectares, l'EMI forme des ingénieurs de haut niveau depuis 64 ans avec un socle commun en sciences et techniques de l'ingénieur, une formation transversale, verticale et appliquée. Depuis 1981, les étudiants reçoivent une instruction militaire leur permettant d'être sous-lieutenants de réserve à leur sortie. L'école compte plus de 7400 lauréats formés, maintient 50+ partenariats internationaux (France, Belgique, Canada, Espagne, Italie) et conduit une recherche appliquée de très haut niveau.",
+    "categorie": "école d'ingénieurs",
+    "serie_bac_requise": "Sciences (Mathématiques spéciales ou équivalent)",
+    "langue_enseignement": "Français",
+    "conditions_acces_generales": "Admission en première année principalement par le concours national commun (CNC), ouvert aux candidats régulièrement inscrits en classes de Mathématiques spéciales. Deux autres voies possibles : (1) Concours spécifique pour titulaires d'un DEUG avec présélection dossier ; (2) Étude de dossier pour titulaires d'une Licence ou équivalent avec commission de présélection. Admission en deuxième année possible pour titulaires d'un Master dans des filières appropriées avec commission de sélection. Candidats étrangers acceptés selon mêmes conditions, candidature présentée par le gouvernement. Visite médicale obligatoire pour aptitude au régime militaire. Conditions de limite d'âge selon voie d'admission.",
+    "duree_cycle_principal": "3 ans",
+    "frais_annuels_mad": "Public (tarif établissement non communiqué sur site)",
+    "mode_admission": "Concours national commun + autres voies (dossier, master)",
+    "niveau_entree": "Bac+2 (CPGE/DEUG) ou Bac+3 (Licence) ou Bac+4 (Master)",
+    "debouches_generaux": "Ingépénieur généraliste polyvalent, Chef de projet, Consultant technique, Entrepreneur, Managers en R&D, Postes industriels et services - secteurs gouvernement, énergie, mines, construction, informatique, manufacturing",
+    "sources": [
+      "https://www.emi.ac.ma/presentation-de-lecole/",
+      "https://www.emi.ac.ma/admission/",
+      "https://www.emi.ac.ma/",
+      "https://www.emi.ac.ma/emi/administration/"
+    ],
+    "filieres": [
+      {
+        "id": "emi_rabat_genie_civil",
+        "type": "cycle_ingenieur",
+        "nom": "Génie Civil",
+        "description": "Filière historique fondée en 1962, formant des ingénieurs civils spécialisés en infrastructure, bâtiment, routes, ponts et ouvrages d'art. Combine théorie des structures, mécanique des sols, hydraulique, géotechnique et management de projet. Forte dimension pratique avec chantiers de démonstration et projets réels.",
+        "domaine": "génie civil",
+        "duree_annees": "3",
+        "langue_enseignement": "Français",
+        "conditions_acces": "Bac+2 CPGE, DEUG/Licence scientifique ou Master dans domaines associés",
+        "niveau_entree": "Bac+2 (généraliste)",
+        "serie_bac_requise": "Sciences (Mathématiques spéciales)",
+        "mode_admission": "Concours national commun ou dossier",
+        "debouches": [
+          "Ingénieur génie civil BTP",
+          "Ingénieur infrastructures et transport",
+          "Chef de projets construction",
+          "Conducteur de travaux",
+          "Ingénieur hydraulique",
+          "Consultant en structures",
+          "Urbaniste",
+          "Chef d'agence BTP"
+        ],
+        "source_urls": [
+          "https://www.emi.ac.ma/presentation-de-lecole/",
+          "https://www.emi.ac.ma/"
+        ]
+      },
+      {
+        "id": "emi_rabat_genie_mineral",
+        "type": "cycle_ingenieur",
+        "nom": "Génie Minéral",
+        "description": "Filière historique fondée en 1962, spécialisée en exploitation minière, géologie appliquée, traitement des minerais et gestion des ressources naturelles. Forme des experts dans la prospection, l'extraction et la valorisation des gisements minéraux. Domaine crucial pour l'économie marocaine.",
+        "domaine": "génie minier",
+        "duree_annees": "3",
+        "langue_enseignement": "Français",
+        "conditions_acces": "Bac+2 CPGE avec spécialité adaptée, DEUG/Licence scientifique ou Master géologie/mines",
+        "niveau_entree": "Bac+2 (généraliste)",
+        "serie_bac_requise": "Sciences (Mathématiques/Physiques spéciales)",
+        "mode_admission": "Concours national commun ou dossier",
+        "debouches": [
+          "Ingénieur minier exploitation",
+          "Géologue minier",
+          "Ingénieur traitement minerais",
+          "Chef de projet minier",
+          "Responsable sécurité mine",
+          "Consultant en ressources minérales",
+          "Ingénieur environnement mines",
+          "Directeur d'exploitation"
+        ],
+        "source_urls": [
+          "https://www.emi.ac.ma/presentation-de-lecole/"
+        ]
+      },
+      {
+        "id": "emi_rabat_genie_electrique",
+        "type": "cycle_ingenieur",
+        "nom": "Génie Électrique",
+        "description": "Filière historique fondée en 1962 couvrant électrotechnique, réseaux électriques, électronique industrielle et production d'énergie. Forme des ingénieurs capables de concevoir, installer et gérer des systèmes électriques complexes. Applications en énergie, industrie et secteur public.",
+        "domaine": "génie électrique",
+        "duree_annees": "3",
+        "langue_enseignement": "Français",
+        "conditions_acces": "Bac+2 CPGE avec filière électricité/physique, DEUG/Licence EEA ou Master électrique",
+        "niveau_entree": "Bac+2 (généraliste)",
+        "serie_bac_requise": "Sciences (Mathématiques/Physiques spéciales)",
+        "mode_admission": "Concours national commun ou dossier",
+        "debouches": [
+          "Ingénieur électricien production",
+          "Ingénieur réseaux électriques",
+          "Spécialiste électrotechnique",
+          "Chef de projet énergie",
+          "Ingénieur maintenance électrique",
+          "Ingénieur automatismes",
+          "Consultant électrique industriel",
+          "Manager énergie renouvelable"
+        ],
+        "source_urls": [
+          "https://www.emi.ac.ma/presentation-de-lecole/"
+        ]
+      },
+      {
+        "id": "emi_rabat_genie_mecanique",
+        "type": "cycle_ingenieur",
+        "nom": "Génie Mécanique",
+        "description": "Filière historique fondée en 1962 concentrée sur conception mécanique, CAO, éléments finis, thermodynamique et simulation. Forme des ingénieurs machinistes capables de concevoir, modéliser et fabriquer des systèmes mécaniques variés. Applications multisectorielles industrie.",
+        "domaine": "génie mécanique",
+        "duree_annees": "3",
+        "langue_enseignement": "Français",
+        "conditions_acces": "Bac+2 CPGE mécanique/physique, DEUG/Licence mécanique ou Master CAO/simulation",
+        "niveau_entree": "Bac+2 (généraliste)",
+        "serie_bac_requise": "Sciences (Mathématiques spéciales)",
+        "mode_admission": "Concours national commun ou dossier",
+        "debouches": [
+          "Ingénieur conception CAO",
+          "Ingénieur méthodes fabrication",
+          "Chef de projet mécanique",
+          "Ingénieur production industrielle",
+          "Spécialiste éléments finis simulation",
+          "Ingénieur maintenance mécanique",
+          "Consultant productivité",
+          "Manager usine manufacturing"
+        ],
+        "source_urls": [
+          "https://www.emi.ac.ma/presentation-de-lecole/"
+        ]
+      },
+      {
+        "id": "emi_rabat_genie_procedes",
+        "type": "cycle_ingenieur",
+        "nom": "Génie des Procédés",
+        "description": "Filière lancée après création initiale, spécialisée en chimie industrielle, thermodynamique appliquée, génie chimique et biotechnologie. Forme des ingénieurs chimistes pour les secteurs pharmaceutique, agroalimentaire, pétrochimie et environnement.",
+        "domaine": "génie des procédés",
+        "duree_annees": "3",
+        "langue_enseignement": "Français",
+        "conditions_acces": "Bac+2 CPGE chimie/physique, DEUG/Licence chimie ou Master génie chimique",
+        "niveau_entree": "Bac+2 (généraliste)",
+        "serie_bac_requise": "Sciences (Mathématiques/Chimie spéciales)",
+        "mode_admission": "Concours national commun ou dossier",
+        "debouches": [
+          "Ingénieur procédé chimique",
+          "Ingénieur qualité production",
+          "Chimiste industriel",
+          "Ingénieur environnement",
+          "Chef de projet innovation procédé",
+          "Responsable R&D industriel",
+          "Ingénieur biotechnologie",
+          "Manager unité production chimique"
+        ],
+        "source_urls": [
+          "https://www.emi.ac.ma/presentation-de-lecole/"
+        ]
+      },
+      {
+        "id": "emi_rabat_genie_industriel",
+        "type": "cycle_ingenieur",
+        "nom": "Génie Industriel",
+        "description": "Filière lancée après création initiale, formant des ingénieurs en optimisation de production, supply chain management, Lean/Six Sigma et gestion de l'innovation. Axée sur amélioration continue, efficacité et compétitivité industrielle dans tous secteurs.",
+        "domaine": "génie industriel",
+        "duree_annees": "3",
+        "langue_enseignement": "Français",
+        "conditions_acces": "Bac+2 CPGE généraliste, DEUG/Licence industrielle ou Master management production",
+        "niveau_entree": "Bac+2 (généraliste)",
+        "serie_bac_requise": "Sciences (Mathématiques spéciales)",
+        "mode_admission": "Concours national commun ou dossier",
+        "debouches": [
+          "Ingénieur méthodes amélioration",
+          "Consultant Lean/Six Sigma",
+          "Responsable supply chain",
+          "Chef de projet optimisation",
+          "Ingénieur logistique",
+          "Manager qualité production",
+          "Spécialiste innovation processus",
+          "Directeur industriel PME/PMI"
+        ],
+        "source_urls": [
+          "https://www.emi.ac.ma/presentation-de-lecole/"
+        ]
+      },
+      {
+        "id": "emi_rabat_genie_informatique",
+        "type": "cycle_ingenieur",
+        "nom": "Génie Informatique",
+        "description": "Filière lancée après création initiale, couvrant développement logiciel, architecture systèmes, cybersécurité et technologies du numérique. Forme des ingénieurs informaticiens pour secteurs IT, banque, télécoms, services et industrie 4.0.",
+        "domaine": "informatique",
+        "duree_annees": "3",
+        "langue_enseignement": "Français",
+        "conditions_acces": "Bac+2 CPGE informatique/mathématiques, DEUG/Licence informatique ou Master informatique",
+        "niveau_entree": "Bac+2 (généraliste)",
+        "serie_bac_requise": "Sciences (Mathématiques spéciales)",
+        "mode_admission": "Concours national commun ou dossier",
+        "debouches": [
+          "Ingénieur développement logiciel",
+          "Architecte systèmes IT",
+          "Spécialiste cybersécurité",
+          "Chef de projet informatique",
+          "Ingénieur cloud infrastructure",
+          "Data scientist/engineer",
+          "Consultant digital transformation",
+          "Manager IT infrastructure"
+        ],
+        "source_urls": [
+          "https://www.emi.ac.ma/presentation-de-lecole/"
+        ]
+      },
+      {
+        "id": "emi_rabat_modelisation_informatique_scientifique",
+        "type": "cycle_ingenieur",
+        "nom": "Modélisation et Informatique Scientifique",
+        "description": "Filière lancée après création initiale, combinant mathématiques avancées, simulation numérique, calcul scientifique et informatique haute performance. Forme des ingénieurs chercheurs pour R&D, recherche appliquée et innovation technologique.",
+        "domaine": "modélisation et informatique scientifique",
+        "duree_annees": "3",
+        "langue_enseignement": "Français",
+        "conditions_acces": "Bac+2 CPGE mathématiques-informatique, DEUG/Licence mathématiques/physique ou Master modélisation scientifique",
+        "niveau_entree": "Bac+2 (généraliste)",
+        "serie_bac_requise": "Sciences (Mathématiques spéciales)",
+        "mode_admission": "Concours national commun ou dossier",
+        "debouches": [
+          "Ingénieur simulation numérique",
+          "Chercheur en modélisation",
+          "Ingénieur calcul scientifique",
+          "Expert analyse données complexes",
+          "Ingénieur R&D innovation",
+          "Consultant en optimisation",
+          "Doctorant/chercheur académique",
+          "Ingénieur intelligence artificielle appliquée"
+        ],
+        "source_urls": [
+          "https://www.emi.ac.ma/presentation-de-lecole/"
+        ]
+      }
+    ]
+  }
+]
